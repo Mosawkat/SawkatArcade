@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--Mohammed Sawkat-->
+<link rel="stylesheet" href="weight.css">
+<html>
+<head>
+    <title>Weight</title>
+</head>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+</style>
+<script src="index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="my_jquery.js"></script>
+<script src="jquery-1.6.1.js"></script>
+<body onload="initialize();">
+
+<div class = "top2">
+<p class="title"> Discover your weight in outer space! </p>    
+<p class="typetext"> Type your weight down below: </p>
+<div class="typebutton" id="typebutton">
+    <input type="number" id="search" placeholder="Your Weight" class="weightinput"> <br> <br>
+<button value='send' class="inputbutton" id="submit" onclick="calculate()">Submit</button>
+</div>
+</div>
+
+<table class="bigTable" id="bigTableID">
+    <tr class="tableOfContents">
+      <th class="planetTop">Planet</th>
+      <th class="lbsTop">Pounds (LB)</th>
+      <th class="kgsTop">Kilograms(KG)</th>
+    </tr>
+    <tr>
+      <td class="planet">Sun</td>
+      <td class="lbs" id ="sun"> </td>
+      <td class="kgs" id ="sunkg"> </p></td>
+    </tr>
+      <tr>
+        <td class="planet">Mercury</td>
+        <td class="lbs" id ="mercury"> </td>
+        <td class="kgs" id ="mercurykg"> </td>
+      </tr>
+      <tr>
+        <td class="planet">Venus</td>
+        <td class="lbs" id ="venus"> </td>
+        <td class="kgs" id ="venuskg"> </td>
+      </tr>
+      <tr>
+        <td class="planet">Earth</td>
+        <td class="lbs" id ="earth"></td>
+        <td class="kgs" id ="earthkg"></td>
+      </tr>
+      <tr>
+        <td class="planet">Moon</td>
+        <td class="lbs" id ="moon"></td>
+        <td class="kgs" id ="moonkg"></td>
+      </tr>
+      <tr>
+        <td class="planet">Mars</td>
+        <td class="lbs" id ="mars"></td>
+        <td class="kgs" id ="marskg"></td>
+      </tr>
+      <tr>
+        <td class="planet">Jupiter</td>
+        <td class="lbs" id ="jupiter"></td>
+        <td class="kgs" id ="jupiterkg"></td>
+      </tr>
+      <tr>
+        <td class="planet">Saturn</td>
+        <td class="lbs" id ="saturn"></td>
+        <td class="kgs" id ="saturnkg"></td>
+      </tr>
+      <tr>
+        <td class="planet">Uranus</td>
+        <td class="lbs" id ="uranus"></td>
+        <td class="kgs" id ="uranuskg"></td>
+      </tr>
+      <tr>
+        <td class="planet">Neptune</td>
+        <td class="lbs" id ="neptune"></td>
+        <td class="kgs" id ="neptunekg"></td>
+      </tr>
+      <tr>
+        <td class="planet">Pluto</td>
+        <td class="lbs" id ="pluto"></td>
+        <td class="kgs" id ="plutokg"></td>
+      </tr>
+  </table>  
+</body>
+</html>
